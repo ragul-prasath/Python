@@ -1,3 +1,4 @@
+#Check whether string is palindrome or not
 n=str(input("Enter the string : "))
 n=list(n)
 l=int(len(n)/2)

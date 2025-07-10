@@ -1,3 +1,4 @@
+# Right Sided Number Ladder
 n = int(input("Enter number of rows: "))
 h = 1
 for i in range(n):
