@@ -29,17 +29,21 @@ Print each name on a new line.
 
 The output should be in alphabetical order.
 '''
+# TO FIND SECOND LOWEST SCORE AMONG ALL STUDENT USING NESTED LIST EG: [[RAVI,89],[SAM,50],[HEMA,49]]
 if __name__ == '__main__':
     l = []
     s = []
     x = []
-    for _ in range(int(input())):
-        name = input()
-        score = float(input())
+    j=1
+    for _ in range(int(input("Enter the no of  student: "))):
+
+        name = input(f"enter the name of {j} student: ")
+        score = float(input(f"Enter the score of {j} student: "))
         s.append(name)
         s.append(score)
         l.append(s)
         s = []
+        j=j+1
 
     mx = float('inf')
     for i in range(len(l)):
