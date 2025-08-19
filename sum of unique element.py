@@ -1,6 +1,6 @@
 '''
 sum of unique element in array
-eg: input =[1,3,2,3,2,4]
+eg: input =[1,3,2,3,2,4]  // 1,2,3,4 // 1+2+3+4  
 output= 10
 '''
 arr=list(map(int,input("enter the element seperated by comma : ").split(",")))
