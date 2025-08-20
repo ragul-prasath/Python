@@ -1,13 +1,11 @@
-n=input()
+n=input("enter the 1st string with space: ")
 n=n.replace(" ","")
 lst1=list(n)
-m=input()
+m=input("enter the 2nd string with space: ")
 m=m.replace(" ","")
 lst2=list(m)
 lst1=sorted(lst1)
-print(lst1)
 lst2=sorted(lst2)
-print(lst2)
 
 if len(lst1)!=len(lst2):
     print("thos is not anagram")
